@@ -1,76 +1,119 @@
-# Hi there, I'm Harsh Raj! 👋
+<h1 align="center">Hi, I'm Harsh Raj 👋</h1>
 
-### 🎓 Robotics & AI Undergraduate @ IIT Mandi
+<h3 align="center">Robotics & AI Undergraduate @ <a href="https://www.iitmandi.ac.in/" target="_blank">IIT Mandi</a></h3>
 
-I am a first-year student passionate about **Machine Learning**, **Robotics**, and creating intelligent systems that solve real-world problems. My journey started with cracking JEE Advanced and has evolved into building AI systems and exploring decentralized technologies.
+<p align="center">
+  <em>"Building the Future with AI & ML"</em>
+</p>
 
----
+<p align="center">
+  <a href="https://www.linkedin.com/in/harsh-raj-266400306/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="mailto:keshriayush321@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+  <a href="https://codeforces.com/profile/HarshRajIIT">
+    <img src="https://img.shields.io/badge/Codeforces-445f9d?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces"/>
+  </a>
+  <a href="https://leetcode.com/u/Harsh_Raj-9/">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/>
+  </a>
+</p>
 
-## 🚀 About Me
+<hr/>
 
-- 🔭 I’m currently working on **Computer Vision & Multimodal Systems**.
-- 🌱 I’m currently learning **Blockchain, Web3, and IoT**.
-- 🏆 **Achievements**: 
-  - Rank #12 at Aiful Corporation International Hackathon.
-  - Selected for Stellar Development Foundation Hackathon (Web3).
-  - JEE Advanced Qualified (92.2% in Class 12th).
-- 💬 Ask me about **Python, C++, and Data Structures**.
-- 📫 Reach me at: **keshriayush321@gmail.com**
+## 👨‍💻 About Me
+
+I am a first-year student pursuing **Robotics and Artificial Intelligence** at IIT Mandi. My journey began with securing **92.2% in Class 12th** and cracking the prestigious **JEE Advanced**. 
+
+Currently, I am diving deep into:
+* **Machine Learning & Computer Vision:** Building systems that can see and analyze.
+* **Multimodal Systems:** Combining audio and visual data for smarter AI.
+* **Web3 & Blockchain:** Exploring decentralized applications and smart contracts.
 
 ---
 
 ## 🛠️ Technical Arsenal
 
-**Languages** ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-
-**Machine Learning & Data Science** ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=black)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
-
-**Tools & Platforms** ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![VS Code](https://img.shields.io/badge/VS%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626.svg?style=for-the-badge&logo=Jupyter&logoColor=white)
+<table align="center">
+  <tr>
+    <td align="center" width="90">
+      <img src="https://skillicons.dev/icons?i=python" width="48" height="48" alt="Python" />
+      <br>Python
+    </td>
+    <td align="center" width="90">
+      <img src="https://skillicons.dev/icons?i=cpp" width="48" height="48" alt="C++" />
+      <br>C++
+    </td>
+    <td align="center" width="90">
+      <img src="https://skillicons.dev/icons?i=c" width="48" height="48" alt="C" />
+      <br>C
+    </td>
+    <td align="center" width="90">
+      <img src="https://skillicons.dev/icons?i=linux" width="48" height="48" alt="Linux" />
+      <br>Linux
+    </td>
+    <td align="center" width="90">
+      <img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git" />
+      <br>Git
+    </td>
+    <td align="center" width="90">
+      <img src="https://skillicons.dev/icons?i=vscode" width="48" height="48" alt="VS Code" />
+      <br>VS Code
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="90">
+      <img src="https://skillicons.dev/icons?i=sklearn" width="48" height="48" alt="Scikit-Learn" />
+      <br>Scikit-Learn
+    </td>
+    <td align="center" width="90">
+      <img src="https://skillicons.dev/icons?i=opencv" width="48" height="48" alt="OpenCV" />
+      <br>OpenCV
+    </td>
+    <td align="center" width="90">
+      <img src="https://skillicons.dev/icons?i=tensorflow" width="48" height="48" alt="TensorFlow" /> <br>ML/AI
+    </td>
+    <td align="center" width="90">
+      <img src="https://skillicons.dev/icons?i=idea" width="48" height="48" alt="Problem Solving" /> <br>DSA
+    </td>
+    <td align="center" width="90">
+      <img src="https://skillicons.dev/icons?i=solidity" width="48" height="48" alt="Web3" /> <br>Web3
+    </td>
+  </tr>
+</table>
 
 ---
 
-## 💻 Featured Projects
+## 🚀 Featured Projects
 
-| Project | Description | Tech Stack |
+| Project | Tech Stack | Description |
 | :--- | :--- | :--- |
-| **AI Classroom Management** | A real-time system analyzing facial expressions and audio cues to provide live feedback to teachers on student engagement. | `CV`, `Audio Processing`, `Python`, `ML` |
-| **Aiful FinTech Solution** | **Rank #12** solution developed during a 3-day international hackathon. A financial technology solution built under strict constraints. | `FinTech`, `Python`, `Data Analysis` |
-| **Stellar Blockchain App** | A decentralized application exploring smart contracts built during the Stellar Development Foundation hackathon. | `Blockchain`, `Web3`, `Smart Contracts` |
+| **🤖 AI Classroom Management** | `Python` `OpenCV` `Audio Processing` | A real-time system that analyzes **facial expressions** and **audio cues** to provide live feedback to teachers, helping them adapt their teaching style based on student engagement. |
+| **💰 Aiful FinTech Solution** | `Python` `FinTech` `Data Analysis` | **Rank #12 Global Winner**. A financial technology solution developed during a 3-day international hackathon, competing against top talent to solve complex financial data problems. |
+| **⛓️ Stellar Blockchain DApp** | `Blockchain` `Smart Contracts` | A decentralized application exploring Web3 capabilities, built during the **Stellar Development Foundation** hackathon. |
 
 ---
 
-## 📊 Competitive Programming & Stats
+## 🏆 Key Achievements
 
-<div align="center">
-  <a href="https://leetcode.com/u/Harsh_Raj-9/">
-    <img src="https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06" />
-  </a>
-  <a href="https://codeforces.com/profile/HarshRajIIT">
-    <img src="https://img.shields.io/badge/Codeforces-445f9d?style=for-the-badge&logo=Codeforces&logoColor=white" />
-  </a>
-</div>
-
-<br/>
-
-<div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=HarshRaj4343&show_icons=true&theme=radical" alt="Harsh's GitHub Stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HarshRaj4343&layout=compact&theme=radical" alt="Top Langs" />
-</div>
+* **Rank #12** at the **Aiful Corporation International Hackathon**.
+* Selected for the **Stellar Development Foundation (Blockchain)** Hackathon.
+* Qualified **JEE Advanced** & **JEE Mains** with strong performance.
+* Secured **92.2%** in Class 12th Board Exams.
 
 ---
 
-## 🤝 Let's Connect
+## 📫 Get in Touch
 
-<p align="left">
-<a href="https://www.linkedin.com/in/harsh-raj-266400306/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="harsh-raj-linkedin" height="30" width="40" /></a>
-<a href="mailto:keshriayush321@gmail.com" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/gmail.svg" alt="harsh-raj-email" height="30" width="40" /></a>
+I am always open to discussing new projects, creative ideas, or opportunities in the AI/Robotics space.
+
+* **Email:** [keshriayush321@gmail.com](mailto:keshriayush321@gmail.com)
+* **LinkedIn:** [Harsh Raj](https://www.linkedin.com/in/harsh-raj-266400306/)
+* **Phone:** +91 6206915698
+
+---
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=00ff88&height=60&section=footer" width="100%"/>
 </p>
