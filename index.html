@@ -100,19 +100,6 @@
     }
     .hero-badge .dot { width:7px;height:7px;border-radius:50%;background:#a78bfa;animation:pulse 1.5s infinite; }
 
-    /* Internship badge */
-    .intern-badge {
-      display: inline-flex; align-items: center; gap: .5rem;
-      background: rgba(0,255,136,.08);
-      border: 1px solid rgba(0,255,136,.3);
-      color: var(--accent);
-      padding: .4rem 1.1rem; border-radius: 50px;
-      font-size: .82rem; font-weight:600;
-      margin-bottom: 2rem; margin-left: .5rem;
-      animation: fadeUp .7s .15s ease both;
-    }
-    .intern-badge .live-dot { width:7px;height:7px;border-radius:50%;background:var(--accent);animation:pulse 1s infinite; }
-
     .hero-title {
       font-size: clamp(2.8rem,7vw,5.5rem);
       font-weight: 900; letter-spacing: -3px;
@@ -181,35 +168,6 @@
     .sec-sub { color:var(--muted); max-width:560px; margin-bottom:4rem; }
     .sec-sub.center { text-align:center; margin:0 auto 4rem; }
     .text-center { text-align:center; }
-
-    /* ── INTERNSHIP HIGHLIGHT ── */
-    .intern-card {
-      background: linear-gradient(135deg, rgba(0,255,136,.07), rgba(0,212,255,.05));
-      border: 1px solid rgba(0,255,136,.25);
-      border-radius: 20px;
-      padding: 2.5rem;
-      display: flex; gap:2rem; align-items:flex-start;
-      margin-bottom: 3rem;
-      position: relative; overflow: hidden;
-    }
-    .intern-card::before {
-      content:'';position:absolute;top:0;left:0;right:0;height:2px;
-      background:linear-gradient(90deg,var(--accent),var(--accent2),transparent);
-    }
-    .intern-icon {
-      font-size:3rem; flex-shrink:0;
-      background: rgba(0,255,136,.1); border-radius:16px;
-      width:72px;height:72px;display:flex;align-items:center;justify-content:center;
-    }
-    .intern-info h3 { font-size:1.4rem;font-weight:800;margin-bottom:.3rem; }
-    .intern-info .company { color:var(--accent);font-weight:700;margin-bottom:.5rem;font-size:1.05rem; }
-    .intern-info .dates { color:var(--muted);font-size:.85rem;margin-bottom:1rem;font-family:'JetBrains Mono',monospace; }
-    .intern-info p { color:var(--muted);line-height:1.7; }
-    .intern-tags { display:flex;gap:.5rem;flex-wrap:wrap;margin-top:1rem; }
-    .intern-tag {
-      background:rgba(0,255,136,.1);color:var(--accent);
-      padding:.3rem .8rem;border-radius:6px;font-size:.78rem;font-weight:600;
-    }
 
     /* ── STATS ── */
     .stats-row {
@@ -399,7 +357,6 @@
   <div>
     <div>
       <span class="hero-badge"><span class="dot"></span>Robotics &amp; AI · IIT Mandi · CGPA 8.93</span>
-      <span class="intern-badge"><span class="live-dot"></span>Intern @ GroupBrain.ai · June 2026</span>
     </div>
 
     <h1 class="hero-title">
@@ -432,29 +389,6 @@
 <section id="about">
   <div class="wrap">
 
-    <!-- Internship highlight -->
-    <div class="intern-card">
-      <div class="intern-icon">🧠</div>
-      <div class="intern-info">
-        <h3>AI/ML Fellow</h3>
-        <div class="company">GroupBrain.ai — Knowledge Layer for Teams</div>
-        <div class="dates">June 14, 2026 → August 21, 2026 · Remote</div>
-        <p>
-          Building the shared knowledge infrastructure for groups: indexing pipelines, RAG strategies,
-          MCP server integrations, and agent-ready APIs. GroupBrain lets any team member — or AI agent —
-          tap into collective knowledge instantly via MCP or API.
-        </p>
-        <div class="intern-tags">
-          <span class="intern-tag">RAG Pipelines</span>
-          <span class="intern-tag">MCP Servers</span>
-          <span class="intern-tag">LangGraph</span>
-          <span class="intern-tag">FAISS / Pinecone</span>
-          <span class="intern-tag">Agentic AI</span>
-          <span class="intern-tag">FastAPI</span>
-        </div>
-      </div>
-    </div>
-
     <!-- Stats -->
     <div class="stats-row">
       <div class="stat"><span class="stat-num">8.93</span><div class="stat-lbl">CGPA at IIT Mandi</div></div>
@@ -469,7 +403,7 @@
       <p class="sec-sub center">
         After cracking JEE Advanced and joining IIT Mandi's AI &amp; Robotics programme,
         I dove straight into building — agentic chatbots, multimodal hackathon projects,
-        weather simulation research, and now an AI fellowship at GroupBrain.ai.
+        weather simulation research, and more.
         I believe the best way to learn is to ship.
       </p>
     </div>
@@ -726,17 +660,6 @@
     </div>
     <div class="exp-list">
 
-      <div class="exp-card" style="border-left-color:var(--accent);">
-        <h3>AI/ML Fellow — GroupBrain.ai</h3>
-        <div class="exp-meta">June 2026 – August 2026 · Remote Fellowship</div>
-        <ul>
-          <li>Building knowledge ingestion pipelines and RAG infrastructure for team-wide AI access</li>
-          <li>Developing MCP servers for GitHub, Slack, and document integrations</li>
-          <li>Architecting Hybrid RAG + Parent Document RAG strategies at scale</li>
-          <li>Implementing webhook endpoints for n8n workflow automations</li>
-        </ul>
-      </div>
-
       <div class="exp-card">
         <h3>Core Team — E-Cell IIT Mandi</h3>
         <div class="exp-meta">May 2026 – Present</div>
@@ -862,9 +785,9 @@
   const col = new Float32Array(count * 3);
 
   const colors = [
-    [0, 1, 0.53],   // accent green
-    [0, 0.83, 1],   // accent cyan
-    [0.49, 0.23, 0.93], // purple
+    [0, 1, 0.53],
+    [0, 0.83, 1],
+    [0.49, 0.23, 0.93],
   ];
 
   for (let i = 0; i < count; i++) {
@@ -891,7 +814,6 @@
   const points = new THREE.Points(geo, mat);
   scene.add(points);
 
-  // Mouse parallax
   let mx = 0, my = 0;
   document.addEventListener('mousemove', e => {
     mx = (e.clientX / window.innerWidth  - 0.5) * 0.3;
